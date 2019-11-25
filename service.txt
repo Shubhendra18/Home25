@@ -1,0 +1,3 @@
+  moveToTrash(SelectedIDs: any = []) {
+    return this.http.post(this.baseUrl + "/User/MoveToTrash", SelectedIDs);
+  }
